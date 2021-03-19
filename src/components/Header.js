@@ -40,7 +40,7 @@ const Header = () => {
         <Avatar className={classes.avatar} src={avatar} alt="Ovsianykov Serhii" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Serhii Ovsianykov"]} typeSpeed={40} />
+        <Typed strings={["Sergey Ovsianykov"]} typeSpeed={40} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">

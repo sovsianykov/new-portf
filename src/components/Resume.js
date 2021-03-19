@@ -205,7 +205,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Javascript & React
+            Javascript & React JS & Redux
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             DataArt
@@ -215,10 +215,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Started working on DataArt company on JS DEVELOPER position
           </Typography>
         </Box>
       </Box>

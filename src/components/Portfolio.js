@@ -10,14 +10,14 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
+// import project1 from "../images/html-css-javascript-lg.jpg";
+// import project2 from "../images/html-css-javascript.jpg";
+// import project3 from "../images/javascript-fullstack.jpg";
+// import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+// import project6 from "../images/react.png";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   mainContainer: {
     background: "#233",
     height: "100%",
@@ -30,53 +30,47 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
-  },
-  {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
-  },
-  {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
-  },
-  {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
-  },
-  {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "e-commerce Shop",
+    description: `An online store using e-commerce integration and @material-ui `,
     image: project5,
+    linkToProject : 'https://sergeys-e-commerce-shop.netlify.app/'
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
+    name: "Extended Web-audio-player",
+    description: `web audio player including playlist including many settings`,
+    image: project5,
+    linkToProject : ' https://my-demo-payer.netlify.app/'
   },
+  {
+    name: "Yesterday's Mars Photos",
+    description: `REST API Project ,getting fresh Mars photo directly from NASA API`,
+    image: project5,
+    linkToProject : ' https://todays-mars-photos.netlify.app/'
+  }
+  // {
+  //   name: "Project 4",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project4,
+  // },
+  // {
+  //   name: "Project 5",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project5,
+  // },
+  // {
+  //   name: "Project 6",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project6,
+  // },
 ];
 
 const Portfolio = () => {
@@ -108,7 +102,7 @@ const Portfolio = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" href={project.linkToProject}>
                   Live Demo
                 </Button>
               </CardActions>
