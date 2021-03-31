@@ -165,7 +165,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            I confidently use JS ,Including Sveral Frameworks
+            I confidently use JS, Including  Frameworks
           </Typography>
         </Box>
         <Typography
