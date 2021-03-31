@@ -129,7 +129,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            HTML & CSS
+            HTML /CSS & SASS,
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             start markup web-pages
@@ -155,7 +155,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            SASS, SCSS & Gulp
+            JS, WEBPACK & Gulp
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             Mastered preprocessors
@@ -165,7 +165,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            I confidently use SCSS ,Including editing of componentse Adobe Templated CMS
+            I confidently use JS ,Including Sveral Frameworks
           </Typography>
         </Box>
         <Typography
@@ -180,7 +180,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Started working on DataArt company on WEBMASER position
+            Started working on DataArt company on WEBMASTER position
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             DataArt
@@ -205,7 +205,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Javascript & React JS & Redux
+            React JS & Redux
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             DataArt
