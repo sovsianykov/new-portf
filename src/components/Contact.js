@@ -37,6 +37,15 @@ const useStyles = makeStyles(() => ({
   field: {
     margin: "1rem 0rem",
   },
+  mailPhone : {
+    display : "block",
+    margin : "20px auto",
+    textDecoration: "none",
+    color: "tomato",
+    textAlign : "center",
+    fontSize : "20px",
+    letterSpacing : ".1rem"
+  }
 }));
 
 const InputField = withStyles({
@@ -59,7 +68,8 @@ const InputField = withStyles({
         borderColor: "tan",
       },
     },
-  },
+  }
+
 })(TextField);
 
 const Contact = () => {
@@ -114,6 +124,12 @@ const Contact = () => {
             >
               Contact Me
             </Button>
+            <a href="mailto:swebproger@gmail.com" className={classes.mailPhone}>
+              swebproger@gmail.com
+            </a>
+            <a href="tel: +380508054899" className={classes.mailPhone}>
+              +380508054899
+            </a>
           </Box>
       </Grid>
     </Box>

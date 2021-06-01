@@ -156,6 +156,7 @@ const Resume = () => {
             className={classes.subHeading}
           >
             SASS, SCSS & Gulp
+            <br/> BOOTSTRAP & MATERIAL-UI
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             Mastered preprocessors
@@ -165,7 +166,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            I confidently use SCSS ,Including editing of componentse Adobe Templated CMS
+            I confidently use SCSS ,Including editing of Adobe Templated CMS components
           </Typography>
         </Box>
         <Typography
@@ -205,7 +206,8 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Javascript & React JS & Redux
+            Javascript & React JS & Redux <br/>
+            Redux-Saga & RxJs
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             DataArt
